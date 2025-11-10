@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoológico De La Vida Salvaje De Mannys</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-image: url('https://media.istockphoto.com/id/527233899/es/vector/mapa-de-un-parque-zool%C3%B3gico.jpg?s=612x612&w=0&k=20&c=Iz0douCAojxKrYgIBV95RJZGPBdEaWQD-ORcatDrtVY=');
+            background-size: cover; /* La imagen cubre toda la pantalla */
+            background-position: center; /* Centrada */
+            background-repeat: no-repeat; /* Sin repetirse */
+            background-attachment: fixed; /* Se mantiene al hacer scroll */
+        }
+
+        header {
+            background-color: rgba(0, 168, 81, 0.9);
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background-color: rgba(0, 168, 81, 0.9);
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #eeccf0;
+            color: rgba(0, 168, 81, 0.9);
+        }
+
+        main {
+            padding: 20px;
+            background-color: rgba(243, 249, 244, 0.9);
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        h2 {
+            color: rgba(0, 168, 81, 0.9);
+        }
+
+        .galeria {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .galeria img {
+            width: 250px;
+            height: 180px;
+            border-radius: 10px;
+            object-fit: cover;
+            border: 2px solid rgba(0, 168, 81, 0.9);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            text-align: center;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #08331d;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgba(0, 168, 81, 0.9);
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: #ffeb99;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zoológico De La Vida Salvaje De Mannys</h1>
+        <p>Explora la naturaleza y conoce a los animales de todo el mundo</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#animales">Animales</a>
+        <a href="#horarios">Horarios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos al Zoológico De La Vida Salvaje De Mannys</h2>
+            <p>En nuestro zoológico, la aventura te espera en cada rincón, donde podrás descubrir más de 200 especies de animales provenientes de todos los continentes
+. A lo largo de nuestras diferentes secciones, cuidadosamente diseñadas para simular sus hábitats naturales, nos preocupamos por la conservación, la educación ambiental y el bienestar de cada ser vivo que vive bajo nuestro cuidado.
+Sumérgete en una experiencia inolvidable
+Más que una simple visita, te invitamos a un viaje educativo que fomenta el respeto por la naturaleza. Nuestros programas interactivos y señalización detallada te ayudarán a conocer las historias y peculiaridades de cada animal, comprendiendo su rol en el ecosistema. Aprenderás sobre los desafíos que enfrentan muchas especies en su entorno salvaje y descubrirás cómo, juntos, podemos contribuir a su protección.
+Un hogar seguro para la vida silvestre
+La salud y felicidad de nuestros habitantes es nuestra máxima prioridad. Nuestro equipo de veterinarios, biólogos y cuidadores trabaja incansablemente para garantizar que cada animal reciba la atención especializada y el enriquecimiento ambiental que necesita para prosperar. Formamos parte de programas globales de cría en cautividad que ayudan a preservar especies en peligro de extinción, con la esperanza de reintroducirlas algún día en su hábitat natural.
+Contribuye a un futuro sostenible
+Cada entrada es una contribución directa a nuestros esfuerzos de conservación, investigación y rescate. Al visitarnos, te unes a nuestra misión de proteger la biodiversidad y crear conciencia sobre la importancia de cuidar nuestro planeta. Ven y sé parte de la aventura, donde la diversión y el aprendizaje van de la mano con la noble tarea de salvar a la vida silvestre
+                
+            </p>
+        </section>
+
+        <section id="animales">
+            <h2>Conoce a nuestros animales</h2>
+            <div class="galeria">
+                <img src="https://png.pngtree.com/png-clipart/20230508/original/pngtree-big-lion-walking-wild-cat-png-image_9153481.png" alt="León">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/024/724/950/small/elephant-ai-generated-free-png.png" alt="Elefante">
+                <img src="https://png.pngtree.com/png-vector/20231126/ourmid/pngtree-clipart-panda-white-background-png-image_10727356.png" alt="Panda">
+                <img src="https://png.pngtree.com/png-clipart/20220111/original/pngtree-giraffe-png-image_7078158.png" alt="Jirafa">
+            </div>
+        </section>
+
+        <section id="horarios">
+            <h2>Horarios y precios</h2>
+            <table>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                    <th>Entrada Adulto</th>
+                    <th>Entrada Niño</th>
+                </tr>
+                <tr><td>Lunes</td><td>09:00 - 18:00</td><td>$100</td><td>$60</td></tr>
+                <tr><td>Martes</td><td>09:00 - 18:00</td><td>$100</td><td>$60</td></tr>
+                <tr><td>Miércoles</td><td>09:00 - 18:00</td><td>$100</td><td>$60</td></tr>
+                <tr><td>Jueves</td><td>09:00 - 18:00</td><td>$100</td><td>$60</td></tr>
+                <tr><td>Viernes</td><td>09:00 - 18:00</td><td>$100</td><td>$60</td></tr>
+                <tr><td>Sábado</td><td>09:00 - 20:00</td><td>$150</td><td>$80</td></tr>
+                <tr><td>Domingo</td><td>09:00 - 20:00</td><td>$150</td><td>$80</td></tr>
+            </table>
+
+            <h3>Horarios de visitas guiadas </h3>
+            <p>Consulta los horarios de visitas guiadas por cada día de la semana.</p>
+
+            <h4>Lunes a Viernes</h4>
+            <table>
+                <tr>
+                    <th>Tipo de Visita</th>
+                    <th>Horarios Disponibles</th>
+                    <th>Duración</th>
+                    <th>Guía Incluido</th>
+                </tr>
+                <tr><td>Visita General</td><td>10:00, 12:00, 14:00, 16:00</td><td>1 hora</td><td>Sí</td></tr>
+                <tr><td>Safari Fotográfico</td><td>11:00 y 15:00</td><td>1 hora 30 min</td><td>Sí</td></tr>
+            </table>
+
+            <h4>Sábado</h4>
+            <table>
+                <tr>
+                    <th>Tipo de Visita</th>
+                    <th>Horarios Disponibles</th>
+                    <th>Duración</th>
+                    <th>Guía Incluido</th>
+                </tr>
+                <tr><td>Visita General</td><td>10:00, 12:00, 14:00, 16:00, 18:00</td><td>1 hora</td><td>Sí</td></tr>
+                <tr><td>Safari Fotográfico</td><td>11:00, 15:00, 17:00</td><td>1 hora 30 min</td><td>Sí</td></tr>
+                <tr><td>Visita Nocturna</td><td>19:00</td><td>1 hora 15 min</td><td>Sí</td></tr>
+            </table>
+
+            <h4>Domingo</h4>
+            <table>
+                <tr>
+                    <th>Tipo de Visita</th>
+                    <th>Horarios Disponibles</th>
+                    <th>Duración</th>
+                    <th>Guía Incluido</th>
+                </tr>
+                <tr><td>Visita General</td><td>10:00, 12:00, 14:00, 16:00, 18:00</td><td>1 hora</td><td>Sí</td></tr>
+                <tr><td>Safari Fotográfico</td><td>11:00, 15:00, 17:00</td><td>1 hora 30 min</td><td>Sí</td></tr>
+                <tr><td>Visita Nocturna</td><td>19:00</td><td>1 hora 15 min</td><td>Sí</td></tr>
+            </table>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Dirección: Avenida de la Naturaleza 123, Ciudad Altamira, Tamps</p>
+            <p>Teléfono: <a href="tel:+528334168736">+52 833 416 8736</a></p>
+            <p>Página oficial: <a href="https://www.zooexample.com" target="_blank">www.ElZoologicoDeLaVidaSalvajeDeMannys.com</a></p>
+            <p>Correo: <a href="mailto:info@MannysQuintero.com">info@MannysQuintero.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Zoológico De La Vida Salvaje De Mannys | Diseñado con Amor por <a href="#">Mannys Lopez Quintero</a></p>
+    </footer>
+</body>
+</html>
